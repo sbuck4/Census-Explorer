@@ -2,7 +2,6 @@ import streamlit as st
 from config import ALL_STATES, STATE_CODES
 from data_retrieval import get_city_and_state_data, get_city_employment_by_industry_data
 from utils import prepare_dataframe_for_display, download_options
-from export_to_google_sheets import export_to_google_sheets
 from walmart import has_walmart
 import warnings
 import urllib3
@@ -78,19 +77,6 @@ def main():
                         file_name=download_files['excel']['filename'],
                         mime=download_files['excel']['mime']
                     )
-                else:
-                    st.info("To enable Excel download, install xlsxwriter package: `pip install xlsxwriter`")
-                
-                if st.button("Export to Google Sheets"):
-                    st.info("Export in progress...")
-                    try:
-                        sheet_url = export_to_google_sheets(display_df[display_columns], f"{state_input} Census Data")
-                        if sheet_url:
-                            st.success(f"Data exported successfully! [Open Sheet]({sheet_url})")
-                        else:
-                            st.error("Export function returned no URL.")
-                    except Exception as e:
-                        st.error(f"Export failed: {e}")
             else:
                 st.warning("No ACS data available for the selected state.")
         else:

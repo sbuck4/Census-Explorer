@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Census API Configuration
-API_KEY = os.getenv('CENSUS_API_KEY', '#your_api_key_here#')
-BASE_URL = os.getenv('CENSUS_BASE_URL', "https://api.census.gov/data/2023/acs/acsse?")
+API_KEY = os.getenv('CENSUS_API_KEY', '53191c6d489276b76cfc11c17ec9a8dd6b7e4a27')
+BASE_URL = os.getenv('CENSUS_BASE_URL', "https://api.census.gov/data/2023/acs/acsse")
 
 # State mapping
 STATE_CODES = {

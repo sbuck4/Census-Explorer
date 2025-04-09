@@ -1,9 +1,11 @@
 # Census Data Explorer
 
-![Screenshot of the City Demographic Application](Census-Explorer/images/streamlitSC.jpeg)
+![Screenshot of the City Demographic Application](/Demographic/streamlitSC.jpeg)
 
 
 Access demographic data from the U.S. Census Bureau's American Community Survey, merged with additional data columns (e.g., dominant employment industry using condensed labels and Walmart proximity). This interactive Streamlit application enables easy exploration of census data and exports for further analysis.
+
+![Screenshot of the City Demographic Application](https://raw.githubusercontent.com/sbuck4/Census-Explorer/main/images/streamlitSC.jpeg)
 
 ## Features
 
@@ -54,4 +56,4 @@ Access demographic data from the U.S. Census Bureau's American Community Survey,
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/sbuck4/Census-Explorer.git
-   cd Demographic
+   cd Census-Explorer

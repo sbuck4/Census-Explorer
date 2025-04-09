@@ -1,6 +1,6 @@
 # Census Data Explorer
 
-![Screenshot of the City Demographic Application](/Users/neikkasmith/Demographic/streamlitSC.jpeg)
+![Screenshot of the City Demographic Application](/Demographic/streamlitSC.jpeg)
 
 
 Access demographic data from the U.S. Census Bureau's American Community Survey, merged with additional data columns (e.g., dominant employment industry using condensed labels and Walmart proximity). This interactive Streamlit application enables easy exploration of census data and exports for further analysis.

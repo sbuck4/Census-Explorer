@@ -53,4 +53,4 @@ Access demographic data from the U.S. Census Bureau's American Community Survey,
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/sbuck4/Census-Explorer.git
-   cd Demographic
+   cd Census-Explorer

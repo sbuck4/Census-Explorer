@@ -39,7 +39,7 @@ def has_walmart(city_name, threshold=10):
     
     try:
         # Update this path to point to your CSV file location.
-        df = pd.read_csv("/Users/neikkasmith/Demographic/walmart_locations.csv")
+        df = pd.read_csv("walmart_locations.csv")
     except Exception as e:
         print("Error reading Walmart locations CSV:", e)
         return "No"
